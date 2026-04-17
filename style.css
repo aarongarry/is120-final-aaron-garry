@@ -22,6 +22,11 @@
 
 /* header */
 
+body {
+  background-color: var(--primary-color);
+  overflow-x: hidden;
+}
+
 header {
   background-color: var(--secondary-color);
   padding: 20px;
@@ -57,7 +62,7 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--primary-color);
+  flex-wrap: wrap;
 }
 
 /* Hero / home */

@@ -8,3 +8,6 @@ for dark mode learned how to use classlist.replace I just used that to change th
 root is easier 
 
 USed "or' false when setting the local storage dark mode variable if it had never been set
+
+
+Aidan told me to remove dark mode/light mode words and just have the symbols

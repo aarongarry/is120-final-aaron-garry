@@ -19,14 +19,12 @@ dark.addEventListener("click", dark_mode);
 // functions
 function light_mode() {
   body.classList.remove("dark-mode");
-//   toggle_header.textContent = "Dark Mode";
   dark_mode_status = false;
   localStorage.setItem("darkMode", JSON.stringify(dark_mode_status));
 }
 
 function dark_mode() {
   body.classList.add("dark-mode");
-//   toggle_header.textContent = "Light Mode";
   dark_mode_status = true;
   localStorage.setItem("darkMode", JSON.stringify(dark_mode_status));
 }

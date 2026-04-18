@@ -387,6 +387,9 @@ footer i {
   0% {
     transform: scale(0.6);
   }
+  60% {
+    transform: scale(1.1);
+  }
   70% {
     transform: scale(1.1);
   }
@@ -457,7 +460,7 @@ footer i {
   .box-right {
     animation: enlarge ease-out both;
     animation-timeline: view();
-    animation-range: entry 30% cover 110vh;
+    animation-range: entry 30% cover 130vh;
   }
 }
 
@@ -548,6 +551,6 @@ footer i {
   .box-right {
     animation: enlarge ease-out both;
     animation-timeline: view();
-    animation-range: entry 30% cover 110vh;
+    animation-range: entry 30% cover 130vh;
   }
 }
